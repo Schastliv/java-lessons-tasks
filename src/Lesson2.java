@@ -6,6 +6,7 @@ public class Lesson2 {
         lesson2.secondTask();
         lesson2.thirdTask();
         lesson2.fourthTask();
+        lesson2.fifth();
 
     }
 
@@ -42,6 +43,20 @@ public class Lesson2 {
         double[] nums1 = {23.45, 56.76, 34.76, 86.53, 34.76};
         byte[] nums2 = {43, 54, 65, 88, 23, 32, 56, 89, 58, (byte) 3333};
         System.out.println(nums2[9]);
+
+    }
+
+    public void fifth() {
+        byte a = 1;
+        int b = 2;
+        long c =3;
+        int [] nums = new int [10];
+        nums [0] = a;
+        nums [1] = b;
+        nums [2] = (int) c;
+
+        System.out.println(nums [1]);
+
 
     }
 }
