@@ -5,6 +5,7 @@ public class Lesson2 {
         lesson2.firstTask();
         lesson2.secondTask();
         lesson2.thirdTask();
+        lesson2.fourthTask();
 
     }
 
@@ -32,7 +33,15 @@ public class Lesson2 {
         String str1 = "Меня зовут".concat(" Олег");
         String str2 = "Здраствуй," + "мир" + "!";
         String str3 = "Год " + 2018;
-System.out.print(str1 + "\n" + str2 + "\n" + str3);
+        System.out.print(str1 + "\n" + str2 + "\n" + str3);
+
+    }
+
+    public void fourthTask() {
+        int[] nums = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+        double[] nums1 = {23.45, 56.76, 34.76, 86.53, 34.76};
+        byte[] nums2 = {43, 54, 65, 88, 23, 32, 56, 89, 58, (byte) 3333};
+        System.out.println(nums2[9]);
 
     }
 }
