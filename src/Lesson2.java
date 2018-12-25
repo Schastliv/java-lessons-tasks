@@ -49,14 +49,30 @@ public class Lesson2 {
     public void fifth() {
         byte a = 1;
         int b = 2;
-        long c =3;
-        int [] nums = new int [10];
-        nums [0] = a;
-        nums [1] = b;
-        nums [2] = (int) c;
+        long c = 3;
+        int[] nums = new int[10];
+        nums[0] = a;
+        nums[1] = b;
+        nums[2] = (int) c;
 
-        System.out.println(nums [1]);
+        System.out.println(nums[1]);
 
+    }
 
+    public void sixth() {
+        int array[][] = new int[2][5];
+        int i, j, k = 1;
+
+        for (i = 0; i < 2; i++) {
+            for (j = 0; i < 5; j++);
+
+        }
+
+        for (i = 0; i < 2; i++) {
+            for (j = 0; j < 5; j++) {
+                System.out.print(array[i][j] + "");
+                System.out.print("");
+            }
+        }
     }
 }
