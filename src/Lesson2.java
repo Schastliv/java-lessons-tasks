@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.StringJoiner;
 import java.util.stream.IntStream;
 
@@ -11,6 +12,7 @@ public class Lesson2 {
         lesson2.fourthTask();
         lesson2.fifth();
         lesson2.seven();
+        lesson2.eighthTask();
     }
 
     public void firstTask() {
@@ -84,5 +86,12 @@ public class Lesson2 {
         int y=6;
         System.out.println("x="+x +"; y="+y);
 
+        }
+
+        public void eighthTask() {
+
+        String src = "Мама мыла раму";
+        String[] nums = src.split("");
+        System.out.println(Arrays.toString(nums));
         }
 }
