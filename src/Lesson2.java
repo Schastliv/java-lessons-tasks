@@ -13,6 +13,7 @@ public class Lesson2 {
         lesson2.fifth();
         lesson2.seven();
         lesson2.eighthTask();
+        lesson2.ninthTask();
     }
 
     public void firstTask() {
@@ -93,5 +94,12 @@ public class Lesson2 {
         String src = "Мама мыла раму";
         String[] nums = src.split("");
         System.out.println(Arrays.toString(nums));
+        }
+
+        public void ninthTask() {
+
+        String src2 = "Я хочу переносы строк";
+        String nums = src2.replace("", System.lineSeparator());
+        System.out.println(nums);
         }
 }
