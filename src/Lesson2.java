@@ -1,3 +1,6 @@
+import java.util.StringJoiner;
+import java.util.stream.IntStream;
+
 public class Lesson2 {
 
     public static void main(String[] arg) {
@@ -7,7 +10,7 @@ public class Lesson2 {
         lesson2.thirdTask();
         lesson2.fourthTask();
         lesson2.fifth();
-
+        lesson2.seven();
     }
 
     public void firstTask() {
@@ -64,7 +67,7 @@ public class Lesson2 {
         int i, j, k = 1;
 
         for (i = 0; i < 2; i++) {
-            for (j = 0; i < 5; j++);
+            for (j = 0; i < 5; j++) ;
 
         }
 
@@ -75,4 +78,11 @@ public class Lesson2 {
             }
         }
     }
+
+    public void seven() {
+        int x=5;
+        int y=6;
+        System.out.println("x="+x +"; y="+y);
+
+        }
 }
