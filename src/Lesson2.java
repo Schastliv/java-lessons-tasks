@@ -10,10 +10,12 @@ public class Lesson2 {
         lesson2.secondTask();
         lesson2.thirdTask();
         lesson2.fourthTask();
-        lesson2.fifth();
-        lesson2.seven();
+        lesson2.fifthTask();
+        lesson2.sixthTask();
+        lesson2.sevenTask();
         lesson2.eighthTask();
         lesson2.ninthTask();
+
     }
 
     public void firstTask() {
@@ -52,7 +54,7 @@ public class Lesson2 {
 
     }
 
-    public void fifth() {
+    public void fifthTask() {
         byte a = 1;
         int b = 2;
         long c = 3;
@@ -65,7 +67,7 @@ public class Lesson2 {
 
     }
 
-    public void sixth() {
+    public void sixthTask() {
         int array[][] = new int[2][5];
         int i, j, k = 1;
 
@@ -82,24 +84,25 @@ public class Lesson2 {
         }
     }
 
-    public void seven() {
-        int x=5;
-        int y=6;
-        System.out.println("x="+x +"; y="+y);
+    public void sevenTask() {
+        int x = 5;
+        int y = 6;
+        System.out.println("x=" + x + "; y=" + y);
 
-        }
+    }
 
-        public void eighthTask() {
+    public void eighthTask() {
 
         String src = "Мама мыла раму";
         String[] nums = src.split("");
         System.out.println(Arrays.toString(nums));
-        }
+    }
 
-        public void ninthTask() {
+    public void ninthTask() {
 
         String src2 = "Я хочу переносы строк";
         String nums = src2.replace("", System.lineSeparator());
         System.out.println(nums);
-        }
+    }
+
 }
