@@ -8,6 +8,7 @@ public class Lesson3 {
         lesson3.firstTask();
         lesson3.secondTask();
         lesson3.thirdTask();
+        lesson3.fourthTask();
     }
 
 
@@ -53,4 +54,11 @@ public class Lesson3 {
         }
         System.out.println("Ваша оценка" + grade);
     }
+
+    public void fourthTask() {
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i + " ");
+        }
+    }
+
 }
