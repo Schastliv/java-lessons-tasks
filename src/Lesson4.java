@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.StringJoiner;
 
 public class Lesson4 {
 
@@ -7,6 +8,7 @@ public class Lesson4 {
         lesson4.firstTask();
         lesson4.secondTask();
         lesson4.thirdTask();
+        lesson4.fourthTask();
     }
 
     public void firstTask() {
@@ -48,9 +50,18 @@ public class Lesson4 {
     }
 
     public void thirdTask() {
-for (int i = 2; i < 100; i+=2){
-    System.out.println(i + " ");
-}
+        for (int i = 2; i < 100; i += 2) {
+            System.out.println(i + " ");
+        }
+
+    }
+
+    public void fourthTask() {
+        String src = "I love Java";
+        for (String part : src.split(" ")) {
+            System.out.println(new StringBuilder(part).reverse().toString());
+            System.out.print(" ");
+        }
 
     }
 }
