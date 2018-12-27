@@ -1,10 +1,12 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Lesson3 {
 
     public static void main(String[] arg) {
         Lesson3 lesson3 = new Lesson3();
         lesson3.firstTask();
+        lesson3.secondTask();
     }
 
 
@@ -20,5 +22,13 @@ public class Lesson3 {
         } else {
             System.out.print("Это оператор else");
         }
+    }
+
+    public void secondTask() {
+
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        System.out.println(a+b);
     }
 }
