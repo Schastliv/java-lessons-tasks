@@ -7,6 +7,7 @@ public class Lesson3 {
         Lesson3 lesson3 = new Lesson3();
         lesson3.firstTask();
         lesson3.secondTask();
+        lesson3.thirdTask();
     }
 
 
@@ -29,6 +30,27 @@ public class Lesson3 {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        System.out.println(a+b);
+        System.out.println(a + b);
+    }
+
+    public void thirdTask() {
+        char grade = 'C';
+        switch (grade) {
+            case 'A':
+                System.out.println("Отлично!");
+                break;
+            case 'B':
+            case 'C':
+                System.out.println("Отлично выполнено!");
+                break;
+            case 'D':
+                System.out.println("Вы прошли");
+            case 'F':
+                System.out.println("Лучше попробуйте снова");
+                break;
+            default:
+                System.out.println("Неверная оценка");
+        }
+        System.out.println("Ваша оценка" + grade);
     }
 }
