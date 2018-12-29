@@ -44,22 +44,32 @@ public class Lesson4 {
         int x = 3;
         int y = 4;
         System.out.println(x + y);
-        System.out.println(x * y);
-        System.out.println("xy");
 
-    }
-
-    public void thirdTask() {
-        for (int i = 2; i < 100; i += 2) {
-            System.out.println(i + " ");
+        for (int i = 1; i < 100; i += 2) {
+            System.out.print(i + " ");
         }
 
     }
 
+    public void thirdTask() {
+        int i = 5;
+        i = i++;
+        System.out.println(i);
+        i = 5;
+        i = i++ + i++;
+        System.out.println(i);
+        i = 5;
+        i = i++ + ++i;
+        System.out.println(i);
+        i = 5;
+        i = ++i + ++i;
+        System.out.println(i);
+    }
+
     public void fourthTask() {
-        String src = "I love Java";
+        String src = "I love Norway";
         for (String part : src.split(" ")) {
-            System.out.println(new StringBuilder(part).reverse().toString());
+            System.out.print(new StringBuilder(part).reverse().toString());
             System.out.print(" ");
         }
 
