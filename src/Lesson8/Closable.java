@@ -1,4 +1,6 @@
 package Lesson8;
 
-public class Closable {
+public interface Closable {
+    void close ();
+
 }

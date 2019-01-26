@@ -1,4 +1,5 @@
 package Lesson8;
 
-public class Element {
+public abstract class Element {
+    public abstract void click ();
 }

@@ -1,4 +1,5 @@
 package Lesson8;
 
-public class Clicable {
+public interface  Clicable {
+    void click2 ();
 }
